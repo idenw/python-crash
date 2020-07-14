@@ -1,5 +1,6 @@
-fibo = []
-for i in range(-2, 8) :
-    if i < 0 : fibo.append(1)
-    else : fibo.append(fibo[i] + fibo[i+1])
-fibo
+set1=[1,1]
+i=0
+for i in range(0,8):
+    var1=set1[i]+set1[i+1] 
+    set1.append(var1)  
+print(set1)
