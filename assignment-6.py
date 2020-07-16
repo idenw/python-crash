@@ -1,7 +1,7 @@
 num=int(input("please enter a number   :  "))
 b=[]
 c=[]
-for i in range(0,num):
+for i in range(2,num):
     for ii in range(1,num):
         if i%ii+i%ii+i%ii<2:
             b.append(i)
