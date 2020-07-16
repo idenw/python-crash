@@ -1,4 +1,3 @@
-a=0
 b=[]
 c=[]
 for i in range(0,101):
